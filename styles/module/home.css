@@ -1,0 +1,123 @@
+.home {
+    font-family: var(--Sora);
+    background: var(--color-Offwhite);
+    color: var(--color-black);
+}
+
+.logo-home {
+    padding: 15% 40% 0 50px;
+}
+
+.logo-home img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper-text {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+
+}
+
+.wrapper-text b {
+    max-width: 34rem;
+    font-size: 48px;
+    line-height: 49px;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-text span {
+    display: flex;
+    align-items: flex-end;
+    font-size: 28px;
+    line-height: 35px;
+    padding: 0 150px 0 150px;
+}
+
+.picture-home {
+    padding: 0 20px 0 20px;
+}
+
+.picture-home img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1440px) {
+    .logo-home {
+        padding: 20% 40% 0 50px;
+    }
+
+    .wrapper-text span {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0 100px 0 13%;
+    }
+
+    .wrapper-text b {
+        font-size: 32px;
+        line-height: 28px;
+        max-width: 19rem;
+    }
+
+    .picture-home {
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-home {
+        padding: 25% 20% 0 50px;
+    }
+
+    .wrapper-text span {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0 50px 0 13%;
+    }
+
+    .wrapper-text b {
+        font-size: 26px;
+        max-width: 17rem;
+    }
+
+    .picture-home {
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-home {
+        padding: 35% 15% 0 20px;
+    }
+
+    .wrapper-text span {
+        text-align: right;
+        font-size: 12px;
+        line-height: 12px;
+        padding: 0 20px 0 0;
+    }
+
+    .center-text {
+        justify-content: flex-start;
+    }
+
+    .wrapper-text b {
+        text-align: left;
+        font-size: 24px;
+        margin-bottom: 70px;
+        padding-left: 20px;
+    }
+
+    .picture-home {
+        padding: 0 5px 0 5px;
+    }
+}

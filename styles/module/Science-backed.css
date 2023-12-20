@@ -1,0 +1,138 @@
+.Science-backed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-olive);
+    color: var(--color-white);
+    font-family: var(--Sora);
+    padding: 100px;
+}
+
+.Science-backed h2 {
+    font-size: 48px;
+    line-height: 40px;
+    width: 29rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.packing {
+    display: flex;
+}
+
+.packing-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.packing-box__right {
+    padding-right: 50px;
+}
+
+.packing-box img {
+    margin-bottom: 20px;
+}
+
+.packing-box span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    width: 9rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.packing-box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 20rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+    .Science-backed h2 {
+        font-size: 48px;
+        line-height: 40px;
+        width: 29rem;
+    }
+
+    .packing-box__right {
+        padding-right: 0;
+    }
+
+    .packing-box img {
+        width: 32px;
+        height: 40px;
+    }
+
+    .packing-box span {
+        font-size: 16px;
+        line-height: 20px;
+        width: 9rem;
+    }
+
+    .packing-box p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Science-backed h2 {
+        font-size: 42px;
+        line-height: 38px;
+        width: 25rem;
+    }
+
+    .packing-box__right {
+        padding-right: 0;
+    }
+
+    .packing-box span {
+        font-size: 14px;
+        line-height: 18px;
+        width: 7rem;
+    }
+
+    .packing-box p {
+        font-size: 12px;
+        line-height: 18px;
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Science-backed h2 {
+        font-size: 36px;
+        line-height: 34px;
+        width: 15rem;
+    }
+
+    .packing {
+        flex-direction: column;
+    }
+
+    .packing-box img {
+        width: 25px;
+        height: 35px;
+    }
+
+    .packing-box span {
+        font-size: 16px;
+        line-height: 20px;
+        width: 9rem;
+    }
+
+    .packing-box p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 16rem;
+        margin-bottom: 50px;
+    }
+}

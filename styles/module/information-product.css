@@ -1,0 +1,28 @@
+.information-product {
+    font-family: var(--Sora);
+    padding: 100px 0 100px 100px;
+    background: var(--color-white);
+    display: flex;
+}
+
+.bloc-container h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.bloc-container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: right;
+}
+
+.picture-bottom img {
+    position: absolute;
+}
+
+.picture-package img {
+    position: absolute;
+}

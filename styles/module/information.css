@@ -1,0 +1,140 @@
+.information {
+    color: var(--color-black);
+    font-family: var(--Sora);
+    background: var(--color-white);
+    padding: 0 0 10% 10%;
+}
+
+.wrap-information {
+    display: flex;
+    padding-top: 10%;
+}
+
+.wrappage-title {
+    margin-right: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrappage-title h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 34px;
+    max-width: 37.6rem;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.wrappage-title p {
+    max-width: 38rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.learn-more {
+    border: 1px solid var(--color-light-grey);
+    background: transparent;
+    padding: 25px 10px 25px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 15rem;
+}
+
+.learn-more:hover {
+    border: 1px solid var(--color-black);
+    opacity: 0.8;
+}
+
+.learn-more img {
+    padding-left: 70px;
+}
+
+.wrappage-image img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+    .wrappage-title {
+        margin-right: 8rem;
+    }
+
+    .wrappage-title h4 {
+        font-size: 32px;
+        line-height: 28px;
+        max-width: 50rem;
+    }
+
+    .wrappage-title p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .learn-more {
+        padding: 25px 10px 25px 10px;
+        font-size: 14px;
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .information {
+        padding: 0 0 10% 3%;
+    }
+
+    .wrappage-title {
+        margin-right: 5rem;
+    }
+
+    .wrappage-title h4 {
+        font-size: 28px;
+        max-width: 60rem;
+    }
+
+    .wrappage-title p {
+        margin: 0;
+    }
+
+    .learn-more {
+        padding: 20px 10px 20px 10px;
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .information {
+        padding: 0 0 10% 5%;
+    }
+
+    .wrap-information {
+        flex-direction: column;
+    }
+
+    .wrappage-title {
+        margin: 0 5% 70px 0;
+    }
+
+    .wrappage-title h4 {
+        font-size: 24px;
+        max-width: 60rem;
+    }
+
+    .wrappage-title p {
+        margin: 15px 0 20px 0;
+    }
+
+    .learn-more {
+        padding: 20px 0 20px 0;
+        width: 100%;
+    }
+
+    .learn-more img {
+        padding-left: 11rem;
+    }
+}

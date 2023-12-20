@@ -1,0 +1,220 @@
+.science {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-olive);
+    color: var(--color-white);
+    font-family: var(--Sora);
+    padding: 80px 10% 70px 10%;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.container-title h2 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.container-title p {
+    max-width: 55%;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+}
+
+.text-two {
+    display: none;
+}
+
+.container-title .two-text {
+    display: none;
+}
+
+.learn-button,
+.learn-button__two {
+    border: 2px solid var(--color-light-grey);
+    background: transparent;
+    padding: 30px 40px 30px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--color-white);
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.learn-button,
+.learn-button__two:hover {
+    transform: scale(1.1);
+}
+
+.learn-button img {
+    padding-left: 70px;
+}
+
+.science-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.science-box__two {
+    display: none;
+}
+
+.learn-button__two {
+    display: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-right {
+    padding-right: 18%;
+}
+
+.box p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: center;
+}
+
+.width {
+    width: 13rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .science {
+        padding: 80px 5% 70px 5%;
+    }
+
+    .container-title h2 {
+        font-size: 48px;
+        line-height: 40px;
+    }
+
+    .container-title p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .learn-button {
+        padding: 20px 30px 20px 20px;
+        font-size: 14px;
+    }
+
+    .learn-button img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .box-right {
+        padding-right: 20%;
+    }
+
+    .box p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .width {
+        width: 7rem;
+    }
+
+    .box .sheet {
+        width: 50px;
+        height: 65px;
+    }
+
+    .box .image {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-title h2 {
+        font-size: 40px;
+        line-height: 34px;
+    }
+
+    .box-right {
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .science {
+        padding: 80px 20px 70px 20px;
+    }
+
+    .container-title h2 {
+        font-weight: 800;
+        font-size: 36px;
+    }
+
+    .container-title p {
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .text-one {
+        display: none;
+    }
+
+    .text-two {
+        display: inline-block;
+    }
+
+    .learn-button {
+        display: none;
+    }
+
+    .learn-button__two {
+        display: inline-block;
+        padding: 20px 30px 20px 20px;
+    }
+
+    .science-box {
+        display: none;
+    }
+
+    .science-box__two {
+        display: flex;
+    }
+
+    .learn-button__two img {
+        padding-left: 145px;
+        width: 12px;
+        height: 10px;
+    }
+
+    .box .frame {
+        width: 50px;
+        height: 65px;
+    }
+
+    .box-right {
+        padding-right: 50px;
+    }
+
+    .box p {
+        max-width: 115px;
+    }
+}

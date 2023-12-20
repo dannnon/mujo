@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vitality brew</title>
+  <link rel="shortcut icon" href="img/Logo%20Stacked.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/index.css">
+
+  <script src="js/java.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="strip">
+        <p>Free shipping on orders over 60 $</p>
+        <div class="strip-button">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="wrapper-header">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu_item">
+                    <a href="#" class="menu__link">
+                        Why Mujo
+                    </a>
+                </li>
+                <li class="menu_item">
+                    <a href="#" class="menu__link">
+                        About
+                    </a>
+                </li>
+                <li class="menu_item">
+                    <a href="#" class="menu__link">
+                        Journal
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="wrapper-logo">
+            <div class="logo">
+                <img src="img/Logo%20Stacked.jpg"/>
+            </div>
+        </div>
+        <div class="wrap-login">
+            <ul class="login">
+                <li class="login-list">
+                    <a href="#">
+                        Log in
+                    </a>
+                </li>
+                <li class="login-list retreat">
+                    <a href="#">
+                        Cart
+                    </a>
+                </li>
+            </ul>
+            <button class="cart">Shop now <img src="img/Vector.png" alt="arrow"></button>
+            <div class="wrap-container">
+                <button class="header__burger-btn" id="burger">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="vitality-brew">
+    <div class="picture-bloc">
+        <div class="background-image">
+            <img src="img/image%203.png" alt="picture"/>
+        </div>
+        <div class="container-icon">
+            <button class="background-icon">
+                <img src="img/image%203(1).png" alt="Nature" style="width:100%" onclick="myFunction(this);"/>
+            </button>
+            <button class="background-icon">
+                <img src="img/Coffee-Pouch-Hersteld%206.png" alt="Snow" style="width:100%" onclick="myFunction(this);"/>
+            </button>
+            <button class="background-icon">
+                <img src="img/Coffee-Pouch-Hersteld%206.png" alt="Mountains" style="width:100%" onclick="myFunction(this);"/>
+            </button>
+        </div>
+    </div>
+    <div class="vitality-bloc">
+        <div class="vitality-title">
+            <h2>Vitality brew</h2>
+            <span>Functional coffee alternative</span>
+            <p>
+                Vital Force by mujo™ is a coffee-like
+                beverage packed with the most effective
+                bioavailable forms of adaptogens and
+                1/20th of caffeine content of a cup of coffee.
+            </p>
+        </div>
+        <div class="price">
+            <div class="title-b">
+                <b>Select your order</b>
+            </div>
+            <div class="price-border">
+                <div class="border">
+                    <div class="border-left">
+                        <b>Subscription</b>
+                        <p>30 servings per month</p>
+                    </div>
+                    <div class="border-right">
+                        <b>$ 59.00</b>
+                        <p>1,90$ / serving</p>
+                    </div>
+                </div>
+                <div class="border">
+                    <div class="border-left">
+                        <b>One time purchase</b>
+                        <p>30 servings </p>
+                    </div>
+                    <div class="border-right">
+                        <b>$ 59.00</b>
+                        <p>1,90$ / serving</p>
+                    </div>
+                </div>
+                <div class="price-text">
+                    <div>
+                        <img src="img/Vector%204.png" alt="icon/">
+                    </div>
+                    <p>Free shipping in the US.  </p>
+                </div>
+            </div>
+        </div>
+        <div class="menu-price">
+            <button class="cart">
+                Add to cart — $ 59.00
+            </button>
+<!--            <div class="container-accordion">-->
+<!--                <div class="accordion-title">-->
+<!--                    <p>How to prepare</p>-->
+<!--                    <div>-->
+<!--                        <img src="img/Vector).png" alt="icon">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="accordion-panel">-->
+<!--                    <a href="#">prepare</a>-->
+<!--                    <a href="#">how</a>-->
+<!--                </div>-->
+<!--                <div class="accordion-title">-->
+<!--                    <p>Ingredients</p>-->
+<!--                    <div>-->
+<!--                        <img src="img/Vector).png" alt="icon">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="accordion-panel">-->
+<!--                    <a href="#">product</a>-->
+<!--                    <a href="#">gain</a>-->
+<!--                </div>-->
+<!--                <div class="accordion-title">-->
+<!--                    <p>Nutritional facts</p>-->
+<!--                    <img src="img/Vector).png" alt="icon">-->
+<!--                </div>-->
+<!--                <div class="accordion-panel">-->
+<!--                    <a href="#">list</a>-->
+<!--                    <a href="#">facts</a>-->
+<!--                </div>-->
+<!--                <div class="accordion-title">-->
+<!--                    <p>Shipping information</p>-->
+<!--                    <img src="img/Vector).png" alt="icon">-->
+<!--                </div>-->
+<!--                <div class="accordion-panel">-->
+<!--                    <a href="#">info</a>-->
+<!--                    <a href="#">pig</a>-->
+<!--                </div>-->
+<!--            </div>-->
+            <div class="container-accordion">
+                <div class="accordion-panel">
+                    <div class="question">
+                        <h3>How to prepare</h3>
+                        <img src="img/Vector).png" alt="icon">
+                    </div>
+                    <div class="answer">
+                        <a href="#">prepare</a>
+                        <a href="#">how</a>
+                    </div>
+                </div>
+                <div class="accordion-panel">
+                    <div class="question">
+                        <h3>Ingredients</h3>
+                        <img src="img/Vector).png" alt="icon">
+                    </div>
+                    <div class="answer">
+                        <a href="#">product</a>
+                        <a href="#">gain</a>
+                    </div>
+                </div>
+                <div class="accordion-panel">
+                    <div class="question">
+                        <h3>Nutritional facts</h3>
+                        <img src="img/Vector).png" alt="icon">
+                    </div>
+                    <div class="answer">
+                        <a href="#">list</a>
+                        <a href="#">facts</a>
+                    </div>
+                </div>
+                <div class="accordion-panel">
+                    <div class="question">
+                        <h3>Shipping information</h3>
+                        <img src="img/Vector).png" alt="icon">
+                    </div>
+                    <div class="answer">
+                        <a href="#">info</a>
+                        <a href="#">pig</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="Science-backed">
+    <h2>Science-backed benefits</h2>
+    <div class="packing">
+        <div class="packing-box packing-box__right">
+            <div>
+                <img src="img/Frame(1).png" alt="icon"/>
+            </div>
+            <span>Focus and cognition</span>
+            <p>
+                Ashwagandha, Bacopa Monnieri, Curcuma, Lion’s
+                Mane, and MCT Oil  cross the brain barrier to
+                support your focus, memory and cognition
+            </p>
+        </div>
+        <div class="packing-box packing-box__right">
+            <div>
+                <img src="img/Frame(1).png" alt="icon"/>
+            </div>
+            <span>Stress management</span>
+            <p>
+                Ashwagandha, Cacao, Rhodiola Rosea, and
+                Lion’s Mane make your mitochondria more
+                resilient to stress and boost your mood
+            </p>
+        </div>
+        <div class="packing-box packing-box__right">
+            <div>
+                <img src="img/Frame(1).png" alt="icon"/>
+            </div>
+            <span>Natural Energy</span>
+            <p>
+                Ashwagandha, Cacao, Rhodiola Rosea, and
+                Lion’s Mane make your mitochondria more
+                resilient to stress and boost your mood
+            </p>
+        </div>
+        <div class="packing-box">
+            <div>
+                <img src="img/Frame(1).png" alt="icon"/>
+            </div>
+            <span>Immunity support</span>
+            <p>
+                Carob, Chaga, Cordyceps, Curcuma, and MCT
+                Oil support the gut and are anti-inflammatory,
+                which boosts your immune system
+            </p>
+        </div>
+    </div>
+</section>
+<section class="Premium-quality">
+    <h2>Premium quality</h2>
+    <h3>ingredients only</h3>
+    <div class="container-product">
+        <div class="box-product">
+            <img src="img/Image%20Container.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>cacao</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img class="down" src="img/Rectangle%20185.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>MCT OIl</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img class="down" src="img/AdobeStock_170454353%201.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>MCT OIl</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img class="down" src="img/Rectangle%20185.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>MCT OIl</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img class="down" src="img/Rectangle%20185.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>MCT OIl</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img class="down" src="img/Rectangle%20185.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>MCT OIl</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-product">
+        <div class="box-product">
+            <img src="img/Image%20Container.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>Cordyceps</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img src="img/Image%20Container(1).png" alt="icon"/>
+            <div class="box-product__text">
+                <b>lions mane</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img class="down-carob" src="img/Scherma.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>carob</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img src="img/Image%20Container.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>lions mane</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img src="img/Image%20Container.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>lions mane</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+        <div class="box-product">
+            <img src="img/Image%20Container.png" alt="icon"/>
+            <div class="box-product__text">
+                <b>lions mane</b>
+                <p>0.58 grams per serving</p>
+            </div>
+        </div>
+    </div>
+    <div class="more">
+        <button class="button-more">
+            More about our ingredients
+            <img src="img/arrow.png" alt="arrow"/>
+        </button>
+    </div>
+</section>
+<section class="our-happy">
+    <h3>OUR HAPPY CUSTOMERS</h3>
+    <div class="container">
+        <div class="bloc-container ">
+            <img class="retreat" src="img/Group%201815.png" alt="icon"/>
+            <p>
+                “ I really love mujo as a way
+                to begin my day energized. ”
+            </p>
+            <div class="container-icon">
+                <img src="img/Ellipse%208.png" alt="icon"/>
+                <b>Joackim W.</b>
+            </div>
+        </div>
+        <div class="bloc-container">
+            <img class="retreat" src="img/Group%201815.png" alt="icon"/>
+            <p>
+                “ For a long time I was looking
+                for a drink to replace my morning
+                coffee and mujo is a not just marketing. ”
+            </p>
+            <div class="container-icon separately">
+                <img src="img/Ellipse%208%20(1).png" alt="icon"/>
+                <b>Joackim W.</b>
+            </div>
+        </div>
+        <div class="bloc-container bloc-container__right">
+            <img class="retreat" src="img/Group%201815.png" alt="icon"/>
+            <p>
+                “ I love to drink my mujo with my
+                vanilla protein powder, just the
+                perfect mix to start my day ”
+            </p>
+            <div class="container-icon separately">
+                <img src="img/Ellipse%208%20(2).png" alt="icon"/>
+                <b>Joackim W.</b>
+            </div>
+        </div>
+    </div>
+    <div class="container-mobile">
+        <div class="bloc-container">
+            <img class="retreat" src="img/Group%201815.png" alt="icon"/>
+            <p>
+                “ I really love mujo as a way
+                to begin my day energized. ”
+            </p>
+            <div class="container-icon">
+                <img src="img/Ellipse%208.png" alt="icon"/>
+                <b>Joackim W.</b>
+            </div>
+        </div>
+        <div class="bloc-container">
+            <img class="retreat" src="img/Group%201815.png" alt="icon"/>
+            <p>
+                “ I really love mujo as a way
+                to begin my day energized. ”
+            </p>
+            <div class="container-icon">
+                <img src="img/Ellipse%208.png" alt="icon"/>
+                <b>Joackim W.</b>
+            </div>
+        </div>
+        <div class="bloc-container">
+            <img class="retreat" src="img/Group%201815.png" alt="icon"/>
+            <p>
+                “ I really love mujo as a way
+                to begin my day energized. ”
+            </p>
+            <div class="container-icon">
+                <img src="img/Ellipse%208.png" alt="icon"/>
+                <b>Joackim W.</b>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="Sustainably">
+    <div class="Sustainably-title">
+        <h2>Sustainably sourced,
+            packaged and delivered
+        </h2>
+        <p>
+            A more mindful and cleaner world is the mission of our company,
+            and we aim to align all of our decisions with our values. We use
+            compostable packaging materials, including FSC paper, and water
+            and soy based ink to minimize our impact on the planet.
+        </p>
+    </div>
+    <div class="product-bloc">
+        <div class="product-image">
+            <img src="img/image0.png" alt="img"/>
+            <img class="order" src="img/Coffee7.png" alt="img"/>
+        </div>
+        <div class="product-text">
+            <div class="month-1">
+                <h3>Welcome package</h3>
+                <b>Month 1</b>
+                <p><i class='check'></i>Stainless steel tin</p>
+                <p><i class='check'></i>Rechargeable fother</p>
+                <p><i class='check'></i>30 servings of Brain force in pouch</p>
+            </div>
+            <div class="month-2">
+                <h3>Refill</h3>
+                <b>Month 2</b>
+                <p><i class='check'></i>30 servings of Brain force in pouch</p>
+            </div>
+        </div>
+    </div>
+    <div class="product-box">
+        <div class="product-text">
+            <div class="product-image">
+                <img src="img/image0.png" alt="img"/>
+            </div>
+            <div class="month-1">
+                <h3>Welcome package</h3>
+                <b>Month 1</b>
+                <p><i class='check'></i>Stainless steel tin</p>
+                <p><i class='check'></i>Rechargeable fother</p>
+                <p><i class='check'></i>30 servings of Brain force in pouch</p>
+            </div>
+        </div>
+        <div class="product-text">
+            <div class="product-image">
+                <img class="order" src="img/Coffee7.png" alt="img"/>
+            </div>
+            <div class="month-2">
+                <h3>Refill</h3>
+                <b>Month 2</b>
+                <p><i class='check'></i>30 servings of Brain force in pouch</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="FAQ">
+    <div class="container-one">
+        <h2>FAQ</h2>
+        <span>Frequently asked questions</span>
+        <p>
+            Can’t find your question
+            in the list? Let us
+            know your questions.
+        </p>
+        <button class="contact-us">
+            Contact us
+            <img src="img/Vector.png" alt="icon"/>
+        </button>
+    </div>
+    <div class="container-two">
+        <button class="accordion">What's different about Mujo?</button>
+        <div class="panel">
+            <p>
+                We care about quality over quantity, and our products
+                are no different. We searched the world for the highest
+                quality adaptogens so you don’t have to, and the results
+                speak for themselves. .
+            </p>
+        </div>
+        <div class="panel-line">
+            <i></i>
+        </div>
+        <button class="accordion">What's different about Mujo?</button>
+        <div class="panel">
+            <p>
+                We care about quality over quantity, and our products
+                are no different. We searched the world for the highest
+                quality adaptogens so you don’t have to, and the results
+                speak for themselves. .
+            </p>
+        </div>
+        <div class="panel-line">
+            <i></i>
+        </div>
+        <button class="accordion">What's different about Mujo?</button>
+        <div class="panel">
+            <p>
+                We care about quality over quantity, and our products
+                are no different. We searched the world for the highest
+                quality adaptogens so you don’t have to, and the results
+                speak for themselves. .
+            </p>
+        </div>
+        <div class="panel-line">
+            <i></i>
+        </div>
+        <button class="accordion">What's different about Mujo?</button>
+        <div class="panel">
+            <p>
+                We care about quality over quantity, and our products
+                are no different. We searched the world for the highest
+                quality adaptogens so you don’t have to, and the results
+                speak for themselves. .
+            </p>
+        </div>
+    </div>
+</section>
+<section class="delicious">
+    <h2>Delicious recipe ideas</h2>
+    <div class="protein-wrapper">
+        <div class="protein-container protein-container__right">
+            <img class="image-right" src="img/image%204.png" alt="image"/>
+            <span>Protein Power</span>
+            <div class="protein-information">
+                <ul class="portion">
+                    <li>1 serv.</li>
+                    <li>1 scoop</li>
+                    <li>1/2</li>
+                    <li>1 tsp</li>
+                    <li>300 ml</li>
+                    <li>1/2 tsp</li>
+                </ul>
+                <ul class="protein-product">
+                    <li>Whey vanilla protein</li>
+                    <li>Vital Force</li>
+                    <li>Banana</li>
+                    <li>Almond butter</li>
+                    <li>Water or milk</li>
+                    <li>Cinnamon</li>
+                </ul>
+            </div>
+        </div>
+        <div class="protein-container protein-container__right">
+            <img class="image-right" src="img/image%204.png" alt="image"/>
+            <span>Protein Power</span>
+            <div class="protein-information">
+                <ul class="portion">
+                    <li>1 serv.</li>
+                    <li>1 scoop</li>
+                    <li>1/2</li>
+                    <li>1 tsp</li>
+                    <li>300 ml</li>
+                    <li>1/2 tsp</li>
+                </ul>
+                <ul class="protein-product">
+                    <li>Whey vanilla protein</li>
+                    <li>Vital Force</li>
+                    <li>Banana</li>
+                    <li>Almond butter</li>
+                    <li>Water or milk</li>
+                    <li>Cinnamon</li>
+                </ul>
+            </div>
+        </div>
+        <div class="protein-container">
+            <img src="img/image%204.png" alt="image"/>
+            <span>Protein Power</span>
+            <div class="protein-information">
+                <ul class="portion">
+                    <li>1 serv.</li>
+                    <li>1 scoop</li>
+                    <li>1/2</li>
+                    <li>1 tsp</li>
+                    <li>300 ml</li>
+                    <li>1/2 tsp</li>
+                </ul>
+                <ul class="protein-product">
+                    <li>Whey vanilla protein</li>
+                    <li>Vital Force</li>
+                    <li>Banana</li>
+                    <li>Almond butter</li>
+                    <li>Water or milk</li>
+                    <li>Cinnamon</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="navigation">
+        <div class="card">
+            <h4>Follow us</h4>
+            <div class="block">
+                <img src="img/Group.png" alt="icon"/>
+                <span>@MUJO.LIFE</span>
+            </div>
+        </div>
+        <div class="card">
+            <h4>products</h4>
+            <ul>
+                <li><a href="#">Vital Force</a></li>
+                <li><a href="#">Balance</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h4>Why muj</h4>
+            <ul>
+                <li><a href="#">Ingredients</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h4>Stay in touch</h4>
+            <div class="block-search">
+                <form action="" class="search">
+                    <input type="text" name="firstname" placeholder="Email adress"/>
+                    <button type="submit"><img src="img/arrooow.png" alt="arrow/"></button>
+                </form>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="removeAttr"/>
+                    <label class="search-text">
+                        Subscribe to receive communications from Mujo about
+                        our products. By subscribing, you confirm you have
+                        read and accept our privacy policy
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo-wrapper">
+        <img src="img/Logo.png" alt="logo"/>
+        <b>brew a change from within</b>
+    </div>
+    <div class="copyright">
+        <span>© 2023 MUJO</span>
+        <b>brew a change from within</b>
+        <nav>
+            <a href="#">Terms of service</a>
+            <a href="#">Privacy policy</a>
+        </nav>
+    </div>
+    <div class="info">
+        <hr>
+        <p>
+            *These statements have not been evaluated
+            by the Food and Drug Administration.
+            This product is not intended to diagnose,
+            treat, cure or prevent any disease
+        </p>
+        <p>
+            Information on this site is provided for informational purposes
+            only. It is not meant to substitute for medical advice from your
+            physician or other medical professional. You should not use the
+            information contained herein for diagnosing or treating a health
+            problem or disease, or prescribing any medication. Carefully read
+            all product documentation. If you have or suspect that you have a
+            medical problem, promptly contact your regular health care provider.
+        </p>
+        <hr>
+    </div>
+</footer>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+</body>
+</html>

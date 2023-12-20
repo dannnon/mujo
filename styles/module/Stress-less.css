@@ -1,0 +1,137 @@
+.Stress-less {
+    font-family: var(--Sora);
+    background: var(--color-white);
+    margin-top: 8%;
+}
+
+.stress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.stress-image {
+    padding-left: 60px;
+}
+
+.stress-image img {
+    width: 35%;
+}
+
+.Stress-less h2,span {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 49px;
+    text-transform: uppercase;
+}
+
+.stress-title h2 {
+    padding-right: 40%;
+}
+
+.stress-img img {
+    width: 100%;
+}
+
+.packed-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6% 0 5% 0;
+}
+
+.packed-container span {
+    padding: 0;
+    width: 30%;
+}
+
+.packed-container p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    width: 32%;
+    padding-left: 10%;
+}
+
+@media screen and (max-width: 1440px) {
+    .Stress-less {
+        margin-top: 15%;
+    }
+
+    .Stress-less h2,span {
+        font-size: 32px;
+        line-height: 28px;
+    }
+
+    .packed-container span {
+        width: 35%;
+    }
+
+    .packed-container p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Stress-less {
+        margin-top: 20%;
+    }
+
+    .Stress-less h2,span {
+        font-size: 28px;
+    }
+
+    .stress-title h2 {
+        padding-right: 15%;
+    }
+
+    .packed-container p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Stress-less {
+        margin-top: 35%;
+    }
+
+    .stress-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stress-image {
+        padding-left: 0;
+    }
+
+    .stress-image img {
+        display: none;
+    }
+
+    .Stress-less h2,span {
+        font-size: 24px;
+    }
+
+    .stress-title h2 {
+        padding: 0 40px 0 40px;
+    }
+
+    .packed-container {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 6% 40px 5% 40px;
+    }
+
+    .packed-container span {
+        width: 100%;
+    }
+
+    .packed-container p {
+        width: 100%;
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,128 @@
+.mujo-work {
+    font-family: var(--Sora);
+    background: var(--color-olive);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 10% 10% 10%;
+}
+
+.mujo-work h2 {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 70%;
+    padding-bottom: 4%;
+}
+
+.mujo-work__container {
+    display: flex;
+}
+
+.mujo-work__bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mujo-work__bloc span {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-transform: uppercase;
+    padding: 40px 0 20px 0;
+}
+
+.mujo-work__bloc p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    width: 90%;
+}
+
+@media screen and (max-width: 1440px) {
+    .mujo-work {
+        padding: 10% 10% 10% 10%;
+    }
+
+    .mujo-work h2 {
+        font-size: 32px;
+        line-height: 28px;
+        width: 70%;
+    }
+
+    .mujo-work__bloc img {
+        width: 5%;
+    }
+
+    .mujo-work__bloc span {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 20px 0 10px 0;
+    }
+
+    .mujo-work__bloc p {
+        font-size: 15px;
+        line-height: 20px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mujo-work {
+        padding: 10% 10% 10% 10%;
+    }
+
+    .mujo-work h2 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .mujo-work__bloc img {
+        width: 32px;
+        height: 40px;
+    }
+
+    .mujo-work__bloc span {
+        padding: 20px 0 10px 0;
+    }
+
+    .mujo-work__bloc p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mujo-work {
+        padding: 10% 50px 10% 50px;
+    }
+
+    .mujo-work h2 {
+        font-size: 24px;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .mujo-work__container {
+        flex-direction: column;
+    }
+
+    .mujo-work__bloc img {
+        width: 9%;
+        height: 9%;
+    }
+
+    .mujo-work__bloc span {
+        padding: 20px 0 10px 0;
+    }
+
+    .mujo-work__bloc p {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+}

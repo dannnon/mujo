@@ -1,0 +1,115 @@
+.delicious {
+    font-family: var(--Sora);
+    background: var(--color-white);
+    padding: 100px 50px 100px 50px;
+    color: var(--color-black);
+}
+
+.delicious h2 {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 70px;
+    text-transform: uppercase;
+    max-width: 42rem;
+}
+
+.protein-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.protein-container__right {
+    margin-right: 20px;
+}
+
+.protein-container img {
+    width: 100%;
+}
+
+.protein-container span {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.protein-information {
+    display: flex;
+}
+
+.protein-information ul {
+    padding-left: 0;
+}
+
+.protein-information li {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.portion {
+    padding-right: 40px;
+}
+
+.portion li {
+    color: var(--color-silver);
+}
+
+.protein-product li {
+    color: var(--color-black);
+    text-align: left;
+}
+
+@media screen and (max-width: 1440px) {
+    .delicious h2 {
+        font-size: 48px;
+        line-height: 40px;
+        max-width: 22rem;
+    }
+
+    .protein-container h3 {
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: 0;
+    }
+
+    .protein-information li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .delicious {
+        padding: 70px 20px 80px 20px;
+    }
+
+    .protein-information li {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .delicious {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .protein-wrapper {
+        flex-direction: column;
+    }
+
+    .protein-container__right {
+        margin-right: 0;
+    }
+
+    .protein-container span {
+        margin-top: 20px;
+    }
+
+    .protein-information {
+        margin-bottom: 50px;
+    }
+}

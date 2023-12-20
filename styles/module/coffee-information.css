@@ -1,0 +1,62 @@
+.coffee-information {
+    font-family: var(--Sora);
+    background: var(--color-white);
+}
+
+.coffee-information span {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.coffee-information p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.box-one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.person-coffee {
+    width: 40%;
+    padding: 0 10% 0 10%;
+}
+
+.box-two {
+    display: flex;
+    align-items: center;
+}
+
+.existing-coffee {
+    width: 100%;
+    padding-left: 10%;
+
+}
+
+.box-two button {
+    margin-left: 0;
+}
+
+.box-thee {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sustainable-coffee {
+    width: 37%;
+}
+
+.wrapper-image__coffee img {
+    width: 100%;
+    padding-left: 40px;
+}
+
+.wrapper-image__person img {
+    width: 100%;
+}

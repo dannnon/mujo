@@ -1,0 +1,136 @@
+.energy {
+    font-family: var(--Sora);
+    background: var(--color-white);
+}
+
+.energy-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 8rem;
+}
+
+.energy-title h2, h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 190px;
+    line-height: 218px;
+    white-space: nowrap;
+    height: 11rem;
+}
+
+.energy-title h2 {
+    margin: 0;
+}
+
+.energy-title h3 {
+    display: flex;
+    justify-content: flex-end;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    padding-right: 80px;
+}
+
+.energy-container {
+    display: flex;
+}
+
+.energy-img img {
+    width: 100%;
+}
+
+.energy-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 200px 0 300px;
+    width: 47rem;
+}
+
+.energy-text span {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 49px;
+    text-transform: uppercase;
+}
+
+.energy-text p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.stress-wrapper {
+    display: flex;
+}
+
+.stress-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stress-text span {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 49px;
+    text-transform: uppercase;
+    max-width: 38rem;
+}
+
+.stress-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.stress-bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stress-bloc p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    max-width: 12rem;
+    text-align: center;
+}
+
+.stress-bloc__right {
+    padding-right: 50px;
+}
+
+.stress-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stress-container__top {
+    display: flex;
+}
+
+.stress-container__bottom {
+    display: flex;
+}
+
+.stress-information {
+    display: flex;
+    justify-content: center;
+}
+
+.stress-information span {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 49px;
+    text-transform: uppercase;
+}
+
+.stress-information p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+}

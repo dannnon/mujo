@@ -1,0 +1,184 @@
+.product {
+    background: var(--color-white);
+    color: var(--color-black);
+    font-family: var(--Sora);
+    padding: 0 100px 20% 10rem;
+    display: flex;
+}
+
+.your-new {
+    display: flex;
+    z-index: 2;
+}
+
+.product-title h4 {
+    max-width: 50rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 110px;
+    margin-bottom: 70px;
+}
+
+.product-title p {
+    max-width: 35rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 0;
+}
+
+.bottom-line {
+    font-size: 14px;
+    line-height: 18px;
+    border-bottom: 1px solid var(--color-dark-grey);
+    width: 11.5em;
+}
+
+.cask {
+    display: flex;
+}
+
+.cask p {
+    font-size: 16px;
+    line-height: 16px;
+    height: 30px;
+    padding-top: 25px;
+}
+
+.buy-now {
+    color: var(--color-black);
+    border: 2px solid var(--color-light-grey);
+    background: transparent;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.buy-now:hover {
+    transform: scale(1.1);
+}
+
+.buy-now img {
+    padding-left: 100px;
+}
+
+.picture {
+    display: flex;
+    position: absolute;
+    padding-top: 20em;
+    left: 48rem;
+}
+
+.vital-force img {
+    height: 800px;
+    padding-top: 40px;
+}
+
+.balance img {
+    height: 750px;
+}
+
+.vital-force,
+.balance
+{
+    position: absolute;
+}
+
+@media screen and (max-width: 1440px) {
+    .product {
+        padding: 0 100px 20% 5rem;
+    }
+
+    .product-title h4 {
+        max-width: 40rem;
+        font-size: 90px;
+        line-height: 80px;
+        margin-bottom: 40px;
+    }
+
+    .product-title p {
+        max-width: 25rem;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .cask p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .buy-now {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .buy-now img {
+        width: 15px;
+        padding-left: 70px;
+    }
+
+    .picture {
+        padding-top: 14.5em;
+        left: 32.5em;
+    }
+
+    .vital-force img {
+        height: 580px;
+    }
+
+    .balance img {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .product {
+        padding: 0 100px 20% 2rem;
+    }
+
+    .product-title h4 {
+        max-width: 30rem;
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .product-title p {
+        max-width: 20rem;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .buy-now {
+        padding: 10px;
+    }
+
+    .buy-now img {
+        width: 15px;
+        padding-left: 40px;
+    }
+
+    .picture {
+        padding-top: 11em;
+        left: 24em;
+    }
+
+    .vital-force img {
+        height: 490px;
+    }
+
+    .balance img {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .your-new {
+        flex-direction: column;
+    }
+}
